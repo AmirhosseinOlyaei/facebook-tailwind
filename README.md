@@ -169,7 +169,7 @@
   -
 
 
-- When you're adding the commit for this, add a comment as "fixes [#1](git@github.com/AmirhosseinOlyaei/facebook-tailwind/issues/1) - adds the reset.css file".  
+- When you're adding the commit for this, add a comment as "fixes [#1](git@github.com/AmirhosseinOlyaei/facebook-tailwind/issues/1) - solved first good issue".  
   -
   
 - https://flexboxfroggy.com/ #Flexbox exercise
