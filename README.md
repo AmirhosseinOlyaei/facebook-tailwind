@@ -85,15 +85,15 @@
     
 - issue : Start the Tailwind CLI build process  
   -
-	  Run the CLI tool to scan your template files for classes and build your CSS.  
+	>Run the CLI tool to scan your template files for classes and build your CSS.  
 	
   ``` TW
       npx tailwindcss -i ./src/tailwind.css -o ./css/styles.css --watch
   ```
     
-- issue : Run: `yarn` to build the packages this project depends on.  
+- issue : Run `yarn` to build the packages this project depends on.  
 	-  
-	  a new #bash tab for each line of code in #vscode
+	>a new #bash tab for each line of code in #vscode
 	
   ``` bash
       cd facebook-tailwind
