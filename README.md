@@ -169,12 +169,11 @@
 	    
 	  (You will use this as your web browser to preview your work through this project)
   
-- issue : sign in to #Jsitor
+- issue : sign in to `Jsitor`  
   -
 
-
-- When you're adding the commit for this, add a comment as "fixes [#1](git@github.com/AmirhosseinOlyaei/facebook-tailwind/issues/1) - solved first good issue".  
+- When you're adding the commit for this, add a comment as "fixes [#1](git@github.com/AmirhosseinOlyaei/facebook-tailwind/issues/1) - solved issue".  
   -
   
-- https://flexboxfroggy.com/ #Flexbox exercise
+- https://flexboxfroggy.com/ Flexbox exercise
   -  
