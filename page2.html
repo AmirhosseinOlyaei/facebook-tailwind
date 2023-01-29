@@ -6,47 +6,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/styles.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Page 2</title>
 </head>
 
-<body>
+<body class="bg-gray-300 text-gray-600">
     <!-- header -->
-    <div>
-        <div>fb logo</div>
-        <div>
-            <div>search icon</div>
-            <div>messenger icon</div>
+    <div class="flex justify-between text-black bg-white">
+        <div class="p-3 flex items-center">
+            <img src="/images/facebook-2019.jpg" alt="Facebook" class="h-6">
+        </div>
+        <div class="flex space-x-2 bg-white items-center">
+            <div class="p-2 bg-gray-100 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                    <path fill-rule="evenodd"
+                        d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                        clip-rule="evenodd" />
+                </svg>
+            </div>
+            <div class="p-2 bg-gray-100 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                    <path fill-rule="evenodd"
+                        d="M10 3c-4.31 0-8 3.033-8 7 0 2.024.978 3.825 2.499 5.085a3.478 3.478 0 01-.522 1.756.75.75 0 00.584 1.143 5.976 5.976 0 003.936-1.108c.487.082.99.124 1.503.124 4.31 0 8-3.033 8-7s-3.69-7-8-7zm0 8a1 1 0 100-2 1 1 0 000 2zm-2-1a1 1 0 11-2 0 1 1 0 012 0zm5 1a1 1 0 100-2 1 1 0 000 2z"
+                        clip-rule="evenodd" />
+                </svg>
+            </div>
         </div>
     </div>
     <!-- Tabs: Home, Favorites and Recent -->
-    <div>
-        <a href="">Home</a>
-        <a href="">Favorites</a>
-        <a href="">Recent</a>
-        <a href="">logo</a>
+    <div class="flex justify-between font-bold text-gray-700 bg-white px-1">
+        <div class="flex">
+            <div class="p-3">
+                <a href="">Home</a>
+            </div>
+            <div class="p-3 border-blue-900 border-b-2">
+                <a href="">Favorites</a>
+            </div>
+            <div class="p-3">
+                <a href="">Recent</a>
+            </div>
+        </div>
+        <div class="p-3">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
+                </svg>
+            </a>
+        </div>
     </div>
     <!-- Manage Fav -->
-    <div>
-        <a href="/page3.html">
-            <div>settings icon</div>
-            <div>Manage Favorites</div>
-            <div>forward icon</div>
-        </a>
-    </div>
+    <a href="/page3.html">
+        <div class="flex justify-between border-2 bg-white">
+            <div class="flex">
+                <div class="p-3 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                        <path fill-rule="evenodd"
+                            d="M8.34 1.804A1 1 0 019.32 1h1.36a1 1 0 01.98.804l.295 1.473c.497.144.971.342 1.416.587l1.25-.834a1 1 0 011.262.125l.962.962a1 1 0 01.125 1.262l-.834 1.25c.245.445.443.919.587 1.416l1.473.294a1 1 0 01.804.98v1.361a1 1 0 01-.804.98l-1.473.295a6.95 6.95 0 01-.587 1.416l.834 1.25a1 1 0 01-.125 1.262l-.962.962a1 1 0 01-1.262.125l-1.25-.834a6.953 6.953 0 01-1.416.587l-.294 1.473a1 1 0 01-.98.804H9.32a1 1 0 01-.98-.804l-.295-1.473a6.957 6.957 0 01-1.416-.587l-1.25.834a1 1 0 01-1.262-.125l-.962-.962a1 1 0 01-.125-1.262l.834-1.25a6.957 6.957 0 01-.587-1.416l-1.473-.294A1 1 0 011 10.68V9.32a1 1 0 01.804-.98l1.473-.295c.144-.497.342-.971.587-1.416l-.834-1.25a1 1 0 01.125-1.262l.962-.962A1 1 0 015.38 3.03l1.25.834a6.957 6.957 0 011.416-.587l.294-1.473zM13 10a3 3 0 11-6 0 3 3 0 016 0z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div class="py-3 text-xl font-medium">Manage Favorites</div>
+            </div>
+            <div>
+                <div class="p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd"
+                            d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </a>
     <!-- post section profile 3 -->
-    <div>
-        <div>
-            <img src="" alt="profile picture 3">
-        </div>
-        <div>
-            <p>Eric Chang</p>
-            <p>star logo</p>
-            <p>Favorites</p>
-            <p>20m</p>
-            <p>Public</p>
-        </div>
-        <div>
-            <p>...</p>
+    <div class="bg-white ">
+        <div class="flex justify-between">
+            <div class="flex p-2">
+                <div class="rounded-full">
+                    <a href="#" role="button">
+                        <img id="profile-image-3" class="rounded-full w-12"
+                            src="https://lh3.googleusercontent.com/ogw/AOh-ky1WVKo6zW2dtPEbZxVQinmKHuvOduJfl-ADAjvExg=s32-c-mo"
+                            srcset="https://lh3.googleusercontent.com/ogw/AOh-ky1WVKo6zW2dtPEbZxVQinmKHuvOduJfl-ADAjvExg=s32-c-mo 1x, https://lh3.googleusercontent.com/ogw/AOh-ky1WVKo6zW2dtPEbZxVQinmKHuvOduJfl-ADAjvExg=s64-c-mo 2x "
+                            alt="profile picture 3" aria-hidden="true" data-noaft="">
+                    </a>
+                </div>
+                <div class="ml-1">
+                    <div>
+                        <p class="font-bold">Amirhossein Olyaei</p>
+                    </div>
+                    <div class="flex text-gray-500">
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="w-4 h-4">
+                                <path fill-rule="evenodd"
+                                    d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <p class="ml-1 mr-2">Favorites</p>
+                        <div>&#x00b7;</div>
+                        <p class="mx-2">20m</p>
+                        <div>&#x00b7;</div>
+                        <p class="mx-2">Public</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                    <path
+                        d="M3 10a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM8.5 10a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM15.5 8.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3z" />
+                </svg>
+            </div>
         </div>
         <!-- post notes -->
         <p>Spend some time with Dexter this evening (smile icon)</p>
