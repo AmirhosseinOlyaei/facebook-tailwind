@@ -1,122 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/styles.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Page 3</title>
 </head>
-<body>
-    <header>
-        <div><a href="/page2.html">back icon</a></div>
-        <div>Favorites</div>
-    </header>
-    <main>
-        <!-- Header -->
-        <div>
-            <div>back logo</div>
-            <p>Favorites</p>
+
+<body class="text-gray-600">
+    <!-- Nav bar -->
+    <div class="flex justify-between border-b-2 bg-white ">
+        <a href="/page2.html">
+            <div class="p-3 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                </svg>
+            </div>
+        </a>
+        <div class="py-3 text-xl font-medium ">Favorites</div>
+        <a href="">
+            <div class="p-3 flex items-center text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd"
+                        d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
+                        clip-rule="evenodd" />
+                </svg>
+            </div>
+        </a>
+    </div>
+
+    <!-- Learn how Favorites works paragragh-->
+    <div class="px-4 py-2">
+        <p>Posts from these friends and Pages are already prioritized in your News Feed. Adding them
+            prrioritizes their posts even more.
+            <a href="#" class="font-bold">Learn how Favorites works</a>
+        </p>
+    </div>
+    <!-- Search box -->
+    <div class="flex bg-gray-100 mx-4 rounded border border-slate-50">
+        <div class="p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                <path fill-rule="evenodd"
+                    d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                    clip-rule="evenodd" />
+            </svg>
         </div>
-        <!-- Learn about Favorites paragraph-->
-        <p>Posts from friens and Pages added to Favorites are shown higher in your News Feed. Learn how Favorites works</p>
-        <!-- Search box -->
-        <div>
-            <div>search logo</div>
-            <input type="text" placeholder="Add friends and Pages">
-        </div>
-        <!-- Suggested Profiles -->
-        <div>
-            <div>
-                <div>
-                    <img src="" alt="profile picture 1">
+        <input type="text" placeholder="Add friends and Pages" class="font-bold bg-gray-100">
+    </div>
+    <!-- Suggested Profiles -->
+    <div class="bg-white py-2">
+        <!-- profile 1 -->
+        <div class="flex justify-between">
+            <div class="flex px-4 py-2">
+                <div class="rounded-full">
+                    <a href="#" role="button">
+                        <img src="https://api.lorem.space/image/fashion?w=150&h=150" class="rounded-full w-12">
+                    </a>
                 </div>
-                <div>
-                    <p>Renne Glenn</p>
-                    <p>star logo</p>
-                    <p>Favorites</p>
-                </div>
-                <div>
-                    <p>...</p>
-                </div>
-                <div>
-                    <img src="" alt="profile picture 2">
-                </div>
-                <div>
-                    <p>Alicia Dean</p>
-                    <p>star logo</p>
-                    <p>Favorites</p>
-                </div>
-                <div>
-                    <p>...</p>
-                </div>                
-                <div>
-                    <img src="" alt="profile picture 3">
-                </div>
-                <div>
-                    <p>Eric Chang</p>
-                    <p>star logo</p>
-                    <p>Favorites</p>
-                </div>
-                <div>
-                    <p>...</p>
-                </div>                
-                <div>
-                    <img src="" alt="profile picture 4">
-                </div>
-                <div>
-                    <p>Jasper's Market</p>
-                    <p>star logo</p>
-                    <p>Favorites</p>
-                </div>
-                <div>
-                    <p>...</p>
+                <div class="ml-2">
+                    <div>
+                        <p class="font-bold">Renne Glenn</p>
+                    </div>
+                    <div class="flex text-gray-500">
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="w-4 h-4">
+                                <path fill-rule="evenodd"
+                                    d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <p class="ml-1 mr-2 text-sm">Favorites</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Suggested Based on your activity paragraph-->
-        <div>
-            <h4>Suggested Based on Your Activity</h4>
-            <p>Posts from these friends and Pages are already prioritized in your News Feed. Adding them prrioritizes their posts even more.</p>
-        </div>
-        <!-- Tabs: Friends and Pages -->
-        <div>
-            <div>Friends</div>
-            <div>Pages</div>
-        </div>
-        <!-- Friends tab -->
-        <div>
-            <div>
-                <img src="" alt="profile picture 5">
-            </div>
-            <div>
-                <p>Kevin Nguyen</p>
-                <p>more info</p>
-            </div>
-            <div>
-                <button>Add</button>
-            </div>                
-            <div>
-                <img src="" alt="profile picture 6">
-            </div>
-            <div>
-                <p>Brad Matthews</p>
-                <p>more info</p>
-            </div>
-            <div>
-                <button>Add</button>
-            </div>                
-            <div>
-                <img src="" alt="profile picture 7">
-            </div>
-            <div>
-                <p>Michelle Bryant</p>
-                <p>more info</p>
-            </div>
-            <div>
-                <button>Add</button>
+            <div class="p-4 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6">
+                    <path
+                        d="M3 10a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM8.5 10a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM15.5 8.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3z" />
+                </svg>
             </div>
         </div>
-    </main>
+        <!-- profile 2 -->
+        <div class="flex justify-between">
+            <div class="flex px-4 py-2">
+                <div class="rounded-full">
+                    <a href="#" role="button">
+                        <img src="https://xsgames.co/randomusers/avatar.php?g=female" class="rounded-full w-12">
+                    </a>
+                </div>
+                <div class="ml-2">
+                    <div>
+                        <p class="font-bold">Alicia Dean</p>
+                    </div>
+                    <div class="flex text-gray-500">
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="w-4 h-4">
+                                <path fill-rule="evenodd"
+                                    d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <p class="ml-1 mr-2 text-sm">Favorites</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6">
+                    <path
+                        d="M3 10a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM8.5 10a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM15.5 8.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3z" />
+                </svg>
+            </div>
+        </div>
+        <!-- profile 3 -->
+        <div class="flex justify-between">
+            <div class="flex px-4 py-2">
+                <div class="rounded-full">
+                    <a href="#" role="button">
+                        <img src="https://xsgames.co/randomusers/avatar.php?g=male" class="rounded-full w-12">
+                    </a>
+                </div>
+                <div class="ml-2">
+                    <div>
+                        <p class="font-bold">Eric Chang</p>
+                    </div>
+                    <div class="flex text-gray-500">
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="w-4 h-4">
+                                <path fill-rule="evenodd"
+                                    d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <p class="ml-1 mr-2 text-sm">Favorites</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center px-4">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6">
+                    <path
+                        d="M3 10a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM8.5 10a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM15.5 8.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3z" />
+                </svg>
+            </div>
+        </div>
+        <!-- Profile 4 -->
+        <div class="flex justify-between">
+            <div class="flex px-4 py-2">
+                <div class="rounded-full">
+                    <a href="#" role="button">
+                        <img src="https://api.lorem.space/image/furniture?w=150&h=150" class="rounded-full w-12">
+                    </a>
+                </div>
+                <div class="ml-2">
+                    <div>
+                        <p class="font-bold">Furniture's Market</p>
+                    </div>
+                    <div class="flex text-gray-500">
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="w-4 h-4">
+                                <path fill-rule="evenodd"
+                                    d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <p class="ml-1 mr-2 text-sm">Favorites</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6">
+                    <path
+                        d="M3 10a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM8.5 10a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM15.5 8.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    <!-- Suggested Based on your activity paragraph-->
+    <div class="px-4 py-2 bg-gray-50 ">
+        <h4 class="font-bold">Suggested Based on Your Activity</h4>
+        <p>Posts from these friends and Pages are already prioritized in your News Feed. Adding them
+            prrioritizes their posts even more.</p>
+    </div>
+    <!-- Tabs: Friends - Pages -->
+    <div class="flex justify-between font-bold text-gray-700 bg-white">
+        <div class="flex">
+            <div class="p-3 border-blue-900 border-b-2">
+                <a href="#">Friends</a>
+            </div>
+            <div class="p-3 text-gray-500">
+                <a href="#">Pages</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- Friends tab -->
+    <div class="bg-white py-2">
+        <!-- profile 5 -->
+        <div class="flex justify-between">
+            <div class="flex px-4 py-2">
+                <div class="rounded-full">
+                    <a href="#" role="button">
+                        <img src="https://loremflickr.com/240/240/boy
+                            " class="rounded-full w-12">
+                    </a>
+                </div>
+                <div class="ml-2">
+                    <div>
+                        <p class="font-bold">Kevin Nguyen</p>
+                    </div>
+                    <div class="flex text-gray-500 text-sm">
+                        <p>More info</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center px-4">
+                <button class="bg-blue-500 rounded w-14 h-9 text-white">
+                    Add
+                </button>
+            </div>
+        </div>
+        <!-- profile 6 -->
+        <div class="flex justify-between">
+            <div class="flex px-4 py-2">
+                <div class="rounded-full">
+                    <a href="#" role="button">
+                        <img src="https://loremflickr.com/240/240/girl
+                            " class="rounded-full w-12">
+                    </a>
+                </div>
+                <div class="ml-2">
+                    <div>
+                        <p class="font-bold">Ann Matthews</p>
+                    </div>
+                    <div class="flex text-gray-500 text-sm">
+                        <p>More info</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center px-4">
+                <button class="bg-blue-500 rounded w-14 h-9 text-white">
+                    Add
+                </button>
+            </div>
+        </div>
+        <!-- profile 7 -->
+        <div class="flex justify-between">
+            <div class="flex px-4 py-2">
+                <div class="rounded-full">
+                    <a href="#" role="button">
+                        <img src="https://loremflickr.com/g/320/320/boston,boy/all" class="rounded-full w-12">
+                    </a>
+                </div>
+                <div class="ml-2">
+                    <div>
+                        <p class="font-bold">Michelle Bryant</p>
+                    </div>
+                    <div class="flex text-gray-500 text-sm">
+                        <p>More info</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center px-4">
+                <button class="bg-blue-500 rounded w-14 h-9 text-white">
+                    Add
+                </button>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
