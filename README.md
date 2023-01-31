@@ -89,7 +89,6 @@
 	
   ``` bash
       cd ..
-      mkdir css && cd css && touch tailwind.css
   ```
   ``` TW
       npx tailwindcss -i ./src/tailwind.css -o ./css/styles.css --watch
