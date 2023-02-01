@@ -64,12 +64,11 @@
   ```
     
 - issue: Configure your template paths  
-	-  
-	  Add the paths to all of your template files in your `tailwind.config.js` file.  
+  -  
+	>Add the paths to all of your template files in your `tailwind.config.js` file.  
   
-  ``` js
-      content: ["./src/**/*.{html,js}"], ["./*.html"],
-  ```
+	- 
+	  Replace: `content: ["./src/**/*.{html,js}", "./*.{html,js}"],`
     
 - issue : Add Tailwind instructions to main CSS file  
 	-  
