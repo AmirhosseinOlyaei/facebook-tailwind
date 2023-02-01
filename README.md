@@ -40,7 +40,7 @@
   
 - issue : Installing yarn
   -
-	- `sudo npm i -g yarn` or `npm install -global yarn`
+	- `sudo npm i -g yarn` or `npm install --global yarn`
   
 - issue : Making facebook-tailwind project directories  
 	-  
